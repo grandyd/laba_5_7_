@@ -1,0 +1,3 @@
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\x64\Debug\7Laba.vcxprojAssemblyReference.cache
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\x64\Debug\My7Laba.MyForm.resources
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\x64\Debug\7Laba.vcxproj.GenerateResource.cache
