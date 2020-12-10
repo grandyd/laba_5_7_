@@ -1,7 +1,9 @@
 #pragma once
 #include"MyString.h"
 #include"MyDate.h"
-class Users
+#include "Obj.h"
+
+class Users:public Obj
 {
 
 	MyString Name;
@@ -45,7 +47,15 @@ public:
 	void ChangePrice(const int Price);
 	void ChangeDate(const MyDate& Date);
 
-
+	///
+	MyString* ToMyString() { return new MyString("Users"); }
+	Obj* copy();
+	int equal(Users&);
+	int equal(Obj&);
+	void dispose();
+	int cmp(Users&);
+	int cmp(Obj&);
+	///
 
 
 

@@ -86,11 +86,11 @@ void Users::ChangeDate(const MyDate& Date)
 
 bool operator==(const Users& user1, const Users& user2)
 {
-	if (user1.Name != user2.Name || user1.PhoneNumber != user2.PhoneNumber || user1.Adress != user2.Adress || user1.Price != user2.Price || user1.Date != user2.Date)
+	if (user1.Name == user2.Name && user1.PhoneNumber == user2.PhoneNumber && user1.Adress == user2.Adress && user1.TypeOfBuilding==user2.TypeOfBuilding && user1.Price == user2.Price && user1.Date == user2.Date)
 	{
-		return false;
+		return true;
 	}
-	return true;
+	return false;
 }
 bool operator!=(const Users& user1, const Users& user2)
 {
@@ -170,4 +170,45 @@ int CmpDate(const Users& user1, const Users& user2)
 		return 0;
 	}
 	return -1;
+}
+
+
+
+
+
+Obj* Users::copy() {
+	return new Users(*this);
+}
+
+int Users::equal(Users& u)
+{
+	return this->Equal(u);
+}
+
+int Users::equal(Obj& w)
+{
+	if (!(*(w.ToMyString()) == MyString("Users")))
+	{
+		return -10;
+	}
+	return equal((Users&)w);
+}
+
+void Users::dispose()
+{
+
+}
+
+int Users::cmp(Users& u)
+{
+	return CmpName(*this, u) && CmpPhoneNuber(*this, u) && CmpAdress(*this, u) && CmpTypeOfBuilding(*this, u) && CmpPrice(*this, u) && CmpDate(*this, u);
+}
+
+int Users::cmp(Obj& w)
+{
+	if (!(*(w.ToMyString()) == MyString("Users")))
+	{
+		return -10;
+	}
+	return cmp((Users&)w);
 }

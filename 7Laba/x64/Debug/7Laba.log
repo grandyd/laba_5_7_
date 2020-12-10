@@ -5,24 +5,21 @@ C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(872,14): warn
 C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(921,19): warning C4101: i: неиспользованная локальная переменная
 C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1151,19): warning C4101: s: неиспользованная локальная переменная
 C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1266,19): warning C4101: s: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1317,6): warning C4101: td: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1317,10): warning C4101: tm: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1317,14): warning C4101: ty: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1366,19): warning C4101: i: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1473,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1487,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1518,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1519,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1520,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1506,7): warning C4101: tmp_Date: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1536,19): warning C4101: s: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1575,19): warning C4101: s: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1633,20): warning C4101: s: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1674,20): warning C4101: s: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1715,20): warning C4101: s: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1756,20): warning C4101: s: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1797,20): warning C4101: s: неиспользованная локальная переменная
-C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1838,20): warning C4101: s: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1376,19): warning C4101: i: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1491,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1505,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1536,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1537,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1538,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1524,7): warning C4101: tmp_Date: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1554,19): warning C4101: s: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1593,19): warning C4101: s: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1651,20): warning C4101: s: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1692,20): warning C4101: s: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1733,20): warning C4101: s: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1774,20): warning C4101: s: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1815,20): warning C4101: s: неиспользованная локальная переменная
+C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.h(1856,20): warning C4101: s: неиспользованная локальная переменная
 C:\Users\Георгий\source\repos\grandyd\laba_7\7Laba\MyForm.cpp(6,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
-  MyConvert.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  io.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   7Laba.vcxproj -> C:\Users\Георгий\source\repos\grandyd\laba_7\x64\Debug\7Laba.exe

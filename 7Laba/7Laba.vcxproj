@@ -121,6 +121,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="io.cpp" />
     <ClCompile Include="MyConvert.cpp" />
     <ClCompile Include="MyDate.cpp" />
     <ClCompile Include="MyForm.cpp" />
@@ -137,6 +138,7 @@
     </ClInclude>
     <ClInclude Include="MyList.h" />
     <ClInclude Include="MyString.h" />
+    <ClInclude Include="Obj.h" />
     <ClInclude Include="Tabl.h" />
     <ClInclude Include="Users.h" />
   </ItemGroup>

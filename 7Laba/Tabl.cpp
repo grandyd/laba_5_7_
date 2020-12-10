@@ -381,7 +381,7 @@ void Tabl::Sort_Date()
 {
 	
 	Users tmp;
-	for (int i = 1; i < 4; i++)
+	for (int i = 1; i < this->arr.GetSize(); i++)
 	{
 		tmp = this->arr[i];
 		int j = i - 1;

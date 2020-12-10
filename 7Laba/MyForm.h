@@ -1304,6 +1304,17 @@ private: System::Void Replace_Click(System::Object^ sender, System::EventArgs^ e
 		return;
 	}
 
+	//проверка на пустые текст боксы
+	for (int i = 0; i < 8; i++)
+	{
+		if (m[i]->Text=="")
+		{
+			MessageBox::Show("Не все данные заполнены");
+			return;
+		}
+	}
+
+
 
 	MyString tmp_Name;
 	MyString tmp_PhoneNumber;
@@ -1314,7 +1325,6 @@ private: System::Void Replace_Click(System::Object^ sender, System::EventArgs^ e
 	MyString tmp_Month;
 	MyString tmp_Year;
 	MyDate tmp_Date;
-	int td, tm, ty;
 
 
 	MyConvert::System_String_To_MyString(tmp_Name, m[0]->Text);
@@ -1414,23 +1424,31 @@ private: System::Void Replace_Click(System::Object^ sender, System::EventArgs^ e
 
 		return;
 	}
-
+	//клиент из текст боксов
 	Users tmp_user(tmp_Name, tmp_PhoneNumber, tmp_Adress, tmp_TypeOfBuilding, MyString_to_Int(tmp_Price), MyDate(MyString_to_Int(tmp_Day), MyString_to_Int(tmp_Month), MyString_to_Int(tmp_Year)));
 
 
-	//listView1->FocusedItem->SubItems[i]->Text;		//эта залупа выводит значение ячейки в выбранной строке
+
+	MyString tmp_Name1;
+	MyString tmp_PhoneNumber1;
+	MyString tmp_Adress1;
+	MyString tmp_TypeOfBuilding1;
+	MyDate tmp_Date1;
+
+	//listView1->FocusedItem->SubItems[i]->Text;		
 	int Price;
-	MyConvert::System_String_To_MyString(tmp_Name, listView1->FocusedItem->SubItems[0]->Text);
-	MyConvert::System_String_To_MyString(tmp_PhoneNumber, listView1->FocusedItem->SubItems[1]->Text);
-	MyConvert::System_String_To_MyString(tmp_Adress, listView1->FocusedItem->SubItems[2]->Text);
-	MyConvert::System_String_To_MyString(tmp_TypeOfBuilding, listView1->FocusedItem->SubItems[3]->Text);
+	MyConvert::System_String_To_MyString(tmp_Name1, listView1->FocusedItem->SubItems[0]->Text);
+	MyConvert::System_String_To_MyString(tmp_PhoneNumber1, listView1->FocusedItem->SubItems[1]->Text);
+	MyConvert::System_String_To_MyString(tmp_Adress1, listView1->FocusedItem->SubItems[2]->Text);
+	MyConvert::System_String_To_MyString(tmp_TypeOfBuilding1, listView1->FocusedItem->SubItems[3]->Text);
 	MyConvert::System_String_To_Int(Price, listView1->FocusedItem->SubItems[4]->Text);
 
 	MyString tmp_date;
 	MyConvert::System_String_To_MyString(tmp_date, listView1->FocusedItem->SubItems[5]->Text);
-	tmp_Date = MyString_to_Date(tmp_date);
-	Users user(tmp_Name, tmp_PhoneNumber, tmp_Adress, tmp_TypeOfBuilding, Price, tmp_Date);
+	tmp_Date1 = MyString_to_Date(tmp_date);
+	Users user(tmp_Name1, tmp_PhoneNumber1, tmp_Adress1, tmp_TypeOfBuilding1, Price, tmp_Date1);
 
+	//проверка на совпадающих клиентов с клиентом из текст боксов
 	for (int i = 0; i < t.GetSize(); i++)
 	{
 		if (t[i] == tmp_user)
